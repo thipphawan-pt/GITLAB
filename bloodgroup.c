@@ -10,6 +10,7 @@ void main()
     do
     {
       printf("What is your blood group [A, B, AB, or O]? ");
+      printf("dad?\n"); //B
       scanf("%s", G);
 
       if (strcmp(G, "A") !=0  &&
@@ -34,6 +35,7 @@ void main()
     else if (strcmp(G, "AB") == 0)
     {
       printf("%s, AB. Oh my God, you can give blood only to: AB.\n", Name);
+      printf("mom?\n"); //B
       printf("  Wow, you can receive blood from all: O, A, B, AB.\n");
     }
     else
